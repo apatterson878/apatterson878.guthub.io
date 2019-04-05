@@ -1,0 +1,20 @@
+body {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=34833);}
+
+.box-set {
+    position: relative;
+    height: 400px;
+    
+  }
+  
+  .box {
+    /* Absolute Position */
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    background: #2db34a;
+    border: 2px solid black;
+  }
+  .box-1 {
+    top: 50%;
+    left: 50%;
+  }
