@@ -1,20 +1,89 @@
-body {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=34833);}
+.box{
+    padding: 5px;
+    background: white;
+    margin-top:50px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:20px;
+    align-content: center;
 
-.box-set {
-    position: relative;
-    height: 400px;
+  }
+
+  .box1{
+    padding: 5px;
+    background: white;
+    margin-top:50px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:20px;
+    align-content: center;
+    min-width: 350px;
     
   }
+  .box2{
+    padding: 5px;
+    background: white;
+    margin-top:50px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:20px;
+    align-content: center;
+    min-width: 550px;
+    
+  }
+
+  .box3{
+    padding: 10px;
+    background: white;
+    margin-top:50px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:20px;
+    align-content: center;
+    min-width: 1000px;
+    
+  }
+
+  body {
+    background: #34495E;
+  }
+ 
+  td {
+    text-align: left;
+  }
   
-  .box {
-    /* Absolute Position */
-    position: absolute;
-    width: 0px;
-    height: 0px;
-    background: #2db34a;
-    border: 2px solid black;
+ img {
+    display: block;
+    margin: 0 auto;
+    margin-left: 12px;
+} 
+
+h2 {
+  text-align: center;
+}
+
+
+.category {
+
+}
+
+.page-footer { 
+  background: white;
+}
+
+.title {
+  text-align: center;
+
+}
+
+.idk {
+  align-content: center
+}
+
+
+@media (min-width: 768px) {
+  .row.idk [class*="col-xs-"] + [class*="col-xs-"] {
+      margin-top: 0;
   }
-  .box-1 {
-    top: 50%;
-    left: 50%;
-  }
+}
+
