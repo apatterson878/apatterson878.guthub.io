@@ -1,89 +1,92 @@
-.box{
-    padding: 5px;
-    background: white;
-    margin-top:50px;
-    margin-left:5px;
-    margin-right:5px;
-    margin-bottom:20px;
-    align-content: center;
+.box {
+  padding: 5px;
+  background: white;
+  margin-top: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  align-content: center;
+}
 
-  }
+.box1 {
+  padding: 5px;
+  background: white;
+  margin-top: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  align-content: center;
+  min-width: 350px;
+}
 
-  .box1{
-    padding: 5px;
-    background: white;
-    margin-top:50px;
-    margin-left:5px;
-    margin-right:5px;
-    margin-bottom:20px;
-    align-content: center;
-    min-width: 350px;
-    
-  }
-  .box2{
-    padding: 5px;
-    background: white;
-    margin-top:50px;
-    margin-left:5px;
-    margin-right:5px;
-    margin-bottom:20px;
-    align-content: center;
-    min-width: 550px;
-    
-  }
+.box2 {
+  padding: 5px;
+  background: white;
+  margin-top: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  align-content: center;
+  min-width: 550px;
+}
 
-  .box3{
-    padding: 10px;
-    background: white;
-    margin-top:50px;
-    margin-left:5px;
-    margin-right:5px;
-    margin-bottom:20px;
-    align-content: center;
-    min-width: 1000px;
-    
-  }
+.box3 {
+  padding: 10px;
+  background: white;
+  margin-top: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  align-content: center;
+  min-width: 1000px;
+}
 
-  body {
-    background: #34495E;
-  }
- 
-  td {
-    text-align: left;
-  }
-  
- img {
-    display: block;
-    margin: 0 auto;
-    margin-left: 12px;
-} 
+body {
+  background: #34495E;
+}
+
+td {
+  text-align: left;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-left: 12px;
+}
+
+.selected {
+  border: 3px solid lightseagreen;
+}
+
+.middle {
+  margin: 0%
+}
 
 h2 {
   text-align: center;
 }
 
-
-.category {
-
-}
-
-.page-footer { 
-  background: white;
-}
-
 .title {
   text-align: center;
-
 }
 
 .idk {
   align-content: center
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+}
 
 @media (min-width: 768px) {
-  .row.idk [class*="col-xs-"] + [class*="col-xs-"] {
+  .row [class*="col-xs-"] + [class*="col-xs-"] {
       margin-top: 0;
   }
 }
-
