@@ -44,7 +44,7 @@
 body {
   background: #34495E;
 }
-
+/* Used in data tab */
 td {
   text-align: left;
 }
@@ -54,7 +54,7 @@ img {
   margin: 0 auto;
   margin-left: 12px;
 }
-
+/* makes the border around the images on the right when selected. */
 .selected {
   border: 3px solid lightseagreen;
 }
@@ -75,6 +75,7 @@ h2 {
   align-content: center
 }
 
+/* Makes my web site look professional because it has a footer A++ */
 .footer {
   position: fixed;
   left: 0;
@@ -85,8 +86,10 @@ h2 {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .row [class*="col-xs-"] + [class*="col-xs-"] {
-      margin-top: 0;
-  }
+@media (min-width: 500px) {
+  .box3 {
+    background: purple;
+  } 
+
+
 }
